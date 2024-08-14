@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#a-propos">À propos</a></li>
+                <li><a href="#travail">Travail</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="accueil">
+            <h1>Bienvenue sur mon portfolio</h1>
+            <p>Bonjour ! Je suis Ahmed Zouari , un développeur web passionné.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/EdIl80PhJaI?si=4RGKPUVYqja8HofP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section id="a-propos">
+            <h2>À propos</h2>
+            <p>Je suis spécialisé dans le développement web avec une expertise en HTML, CSS, et JavaScript.</p>
+            <p>Voici une courte biographie et un peu d'informations sur moi.</p>
+        </section>
+        <section id="travail">
+            <h2>Travail</h2>
+            <ul>
+                <li><a href="https://www.esgi.fr/actualites/17022022-quelle-est-la-difference-entre-html-css-javascript">Projet 1</a></li>
+                <li><a href="https://openclassrooms.com/fr/courses/7168871-apprenez-les-bases-du-langage-python">Projet 2</a></li>
+    
+            </ul>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Projet</th>
+                        <th>Description</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Projet 1</td>
+                        <td>HTML , CSS et Javascript</td>
+                        <td>Janvier 2024</td>
+                    </tr>
+                    <tr>
+                        <td>Projet 2</td>
+                        <td>Python</td>
+                        <td>Juillet 2024</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="cv">
+            <h2>CV</h2>
+            <p>Téléchargez mon CV en cliquant sur le lien ci-dessous.</p>
+            <a href="cv.pdf" download>Télécharger le CV</a>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="/submit-form" method="post">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
