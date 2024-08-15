@@ -1,0 +1,99 @@
+body{
+    background-color: beige;
+}
+ul {
+    list-style-type: none;
+    
+  }
+  
+  li {
+    display: inline;
+  }
+  nav ul li a {
+    color: red; 
+}
+.ff{
+    display: flex;
+}
+.ff label {
+    color: blue;
+}
+header {
+    display: flex;
+    padding: 20px; 
+    margin-left: 1150px; 
+}
+h1{
+    justify-content: center;
+}
+#accueil {
+    display: flex; 
+    justify-content: center; 
+    text-align: center; 
+}
+#phrase{
+    color: hotpink;
+}
+#a-propos h2 {
+    color: brown; 
+}
+
+#a-propos p {
+    color: darkgoldenrod; 
+    margin-left: 100px;
+}
+#cv h2 {
+    color: brown; 
+
+}
+
+#cv p, #cv a {
+    color: darkgoldenrod;  
+}
+#cv a {
+    margin-left: 300px;
+}
+#cv p {
+    margin-left: 100px;
+}
+#contact h2 {
+    color: brown; 
+}
+
+#contact label, #contact textarea, #contact button {
+    color: darkgoldenrod;
+    margin-left: 100px;
+}
+footer {
+    color: green;
+    margin-left: 600px;
+}
+#travail h2 {
+    color: brown;
+}
+
+#travail ul li a {
+    color: red;
+    margin-left: 150px;
+}
+#travail thead th {
+    color: green;
+}
+#travail tbody td {
+    color: darkgoldenrod;
+}
+#travail table {
+    margin-left: 100px; 
+}
+#travail ul {
+    display: flex; 
+    margin : 0px ;
+    padding : 0px ;
+}
+#phrase, #video {
+    margin-left: 150px; 
+}
+#contact label {
+    padding-right: 15px;
+    gap: 15px;
+}
